@@ -610,7 +610,6 @@ footer {
     position: absolute;
     top: 24px;
     right: 24px;
-    width: 24px;
     height: 24px;
     border-radius: 50%;
     display: flex;
@@ -767,6 +766,6 @@ footer {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon_close:focus-within{
+.modal_contract_form_input:focus-within{
     fill: #4D5AE5;
 }

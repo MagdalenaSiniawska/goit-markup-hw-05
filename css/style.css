@@ -675,6 +675,9 @@ footer {
 
 .section_modal:focus{
     border-color: #4D5AE5;
+}
+
+input[text]:focus + .icon_modal{
     fill: #4D5AE5;
 }
 

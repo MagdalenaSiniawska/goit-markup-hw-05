@@ -21,8 +21,6 @@ border-bottom: 1px solid #e7e9fc;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
-padding-bottom: 24px;
-padding-top: 24px;
 }
 
 
@@ -90,7 +88,6 @@ padding-top: 24px;
     letter-spacing: 0.02em;
     display: flex; 
     gap: 40px;
-    padding-right: 332px;
 }
 
 .navigation_option {
@@ -153,12 +150,11 @@ padding-top: 24px;
     background-color: #2E2F42;
     justify-content: center;
     padding: 188px 0;
-    min-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .main_text {
@@ -170,8 +166,6 @@ padding-top: 24px;
     color: #FFFFFF;
     text-align: center;
     max-width: 496px;
-    justify-content: center;
-    padding-bottom: 48px;    
 }
 
 button {
@@ -184,18 +178,13 @@ button {
     background-color: #4D5AE5;
     border-color: #4D5AE5;
     cursor: pointer;
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
     border: none;
     background-color:#4d5ae5;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.button_section{
-    
 }
 
 button:hover {
@@ -212,15 +201,13 @@ button:focus {
     list-style: none;
     text-align: left; 
     justify-content: center;
-    /* margin-left: 156px; */
-    align-items: center;
+    margin-left: 156px;
     display: flex;
     gap: 24px;
 }
 
 .company_values_list{
     width: calc((100% - 72px) / 4);
-    display: grid;
 }
 
 .company_values_header {
@@ -243,35 +230,23 @@ button:focus {
     color: inherit;
     margin-right: 24px;
     color: #434455;
-    min-width: 264px;
 }
 
 .company_values_icon{
+    display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.icon_company_values{
     height: 112px;
-    min-width: 264px;
     background-color: #f4f4fd;
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .company_values_section{
     padding: 120px 0;
 
-}
-
-.container_main_section{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 
 .visually-hidden {
@@ -366,8 +341,6 @@ button:focus {
     display: flex;
     justify-content: center;
     gap: 24px;
-    list-style: none;
-    padding-top: 8px;
 }
 
 .list_icons{
@@ -464,7 +437,7 @@ button:focus {
  .portfolio_image{
     position: relative;
     overflow: hidden;
-    /* height: 100%; */
+    height: 100%;
 
  }
 
@@ -521,8 +494,6 @@ footer {
 .list_of_social_media_icons{
     display: flex;
     gap: 16px;
-    list-style: none;
-    margin-right: 80px
 }
 
 .list_icons_footer{
@@ -639,7 +610,7 @@ footer {
     position: absolute;
     top: 24px;
     right: 24px;
-    width: 24px;
+    min-width: 24px;
     height: 24px;
     border-radius: 50%;
     display: flex;

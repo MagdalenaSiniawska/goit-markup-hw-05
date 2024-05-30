@@ -809,3 +809,8 @@ footer {
     border: none;
     fill: #404bbf;
 }
+
+.section_modal::selection + .privacy_policy_checkbox{
+    border: 1px solid #404BBF;
+    fill:#404BBF;
+}

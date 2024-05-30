@@ -800,6 +800,12 @@ footer {
     fill: #4D5AE5;
 }
 
-.privacy_policy_input:checked{
+/* .privacy_policy_input:checked{
     background-color: #404BBF;
+} */
+
+.privacy_policy_input:checked + .privacy_policy_checkbox{
+    background-color: #404BBF;
+    border: none;
+    fill: #404bbf;
 }
